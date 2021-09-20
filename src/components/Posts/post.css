@@ -1,0 +1,12 @@
+.Post{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    width: 40%;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px;
+    width: 300px;
+}
