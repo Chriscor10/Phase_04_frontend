@@ -7,6 +7,7 @@ function PostForm ({ addPost }) {
         heading: "",
         content: "",
         picture_link:"",
+
     })
     
     function handleNewPost (event) {
