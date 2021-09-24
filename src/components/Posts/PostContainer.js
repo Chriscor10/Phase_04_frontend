@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './postcontainer.css';
 import Post from './Post';
 
+
+
+
 const URL = "http://127.0.0.1:3000/posts"
 
 function PostContainer() {
@@ -37,7 +40,6 @@ function PostContainer() {
                 deletePost={deletePost}
                 />
             })}
-
            
         </div>
     );

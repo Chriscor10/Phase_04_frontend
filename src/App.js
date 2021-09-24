@@ -4,7 +4,8 @@ import NavBar from './components/NavBar/NavBar';
 import Formcontainer from './components/Posts/FormContainer';
 import PostContainer from "./components/Posts/PostContainer"
 import UsersContainer from './components/Users/UserContainer';
-import Postpage from './components/PostPage/PostPage';
+import Footer from './components/Footer/Footer';
+import PostPage from './components/PostPage/PostPage';
 
 
 
@@ -22,9 +23,10 @@ function App() {
       <UsersContainer/>
       </Route>
       <Route exact path="/posts/:id">
-      <Postpage/>
-          </Route>
+        <PostPage/>
+      </Route>
       </Switch>
+      <Footer/>
     </div>
     </header>
   );
